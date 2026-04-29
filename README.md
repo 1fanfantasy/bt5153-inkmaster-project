@@ -36,10 +36,10 @@ This project builds an end-to-end pipeline for calligraphy learning, integrating
   Fine-tunes the ViT model (must be run first)  
 
 - `embedding.ipynb`  
-  Preprocessing step for image RAG (generate embeddings for selected masters)  
+  Preprocessing step for image RAG (generate embeddings for selected masters). Since the project is a demo, we only embedded the yzq's data.
 
 - `Pesudo label.ipynb`  
-  Generates CSV labels mapping calligraphy images to corresponding Chinese characters  
+  Generates CSV labels mapping calligraphy images to corresponding Chinese characters. Since the project is a demo, we only embedded the yzq's and oyx's data.
 
 - `combine_web_app.py`  
   Streamlit-based web application  
